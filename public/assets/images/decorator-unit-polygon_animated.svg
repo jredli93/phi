@@ -1,0 +1,43 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" class="svg-snoweb svg-theme-light" x="0" y="0" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" style="">
+<defs>
+    <style>
+        
+            
+            
+            
+        
+
+        .svg-fill-primary {
+            fill: #090D49;
+        }
+
+        .svg-fill-secondary {
+            fill: #65CDAE;
+        }
+
+        .svg-fill-tertiary {
+            fill: #E5E7EB;
+        }
+
+        .svg-stroke-primary {
+            stroke: #090D49;
+        }
+
+        .svg-stroke-secondary {
+            stroke: #65CDAE;
+        }
+
+        .svg-stroke-tertiary {
+            stroke: #E5E7EB;
+        }
+    </style>
+</defs>
+    
+    <defs>
+        <pattern id="unit-202301-1718-0634-23f745bb-471e-4c3d-b314-64027c3f5a4e" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+            <path class="svg-fill-primary BehqpEbw_0" d="M5,2.5L7.5,7.5L2.5,7.5L5,2.5Z"></path>
+        </pattern>
+    </defs>
+    <path width="100" height="100" fill="url(#unit-202301-1718-0634-23f745bb-471e-4c3d-b314-64027c3f5a4e)" d="M0 0 L100 0 L100 100 L0 100 Z" class="BehqpEbw_1"></path>
+<style data-made-with="vivus-instant">.BehqpEbw_0{stroke-dasharray:17 19;stroke-dashoffset:18;animation:BehqpEbw_draw_0 7200ms linear 0ms infinite,BehqpEbw_fade 7200ms linear 0ms infinite;}.BehqpEbw_1{stroke-dasharray:400 402;stroke-dashoffset:401;animation:BehqpEbw_draw_1 7200ms linear 0ms infinite,BehqpEbw_fade 7200ms linear 0ms infinite;}@keyframes BehqpEbw_draw{100%{stroke-dashoffset:0;}}@keyframes BehqpEbw_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes BehqpEbw_draw_0{11.11111111111111%{stroke-dashoffset: 18}38.88888888888889%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes BehqpEbw_draw_1{25%{stroke-dashoffset: 401}52.77777777777778%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>
