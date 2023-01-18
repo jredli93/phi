@@ -3,6 +3,7 @@ dist/
 
 # dependencies
 node_modules/
+tailwind.config.cjs
 
 # logs
 npm-debug.log*
