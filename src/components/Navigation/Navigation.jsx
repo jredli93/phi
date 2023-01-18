@@ -5,7 +5,7 @@ function Navigation() {
     <div class="bg-stone-900 sticky top-0 lg:h-[8vh]">
       <nav class="flex mx-auto max-w-screen-xl h-full items-center justify-between flex-wrap">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <img src="/assets/images/logo.png" class="w-9" alt="logo" />
+          <img src="/assets/images/logo.png" width="36px" height="54px" class="w-9" alt="logo" />
         </div>
         <div class="block lg:hidden">
           <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
