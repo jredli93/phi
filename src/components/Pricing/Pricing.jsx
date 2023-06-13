@@ -1,256 +1,362 @@
 import React from 'react';
+import { FaBeer } from 'react-icons/fa';
+import { SlCrop } from 'react-icons/sl';
 
 function Pricing() {
   return (
-    <section className="mx-auto max-w-screen-xl py-32 dark:text-gray-100">
-      <div className="container mx-auto sm:p-10">
-        <div
-          className="mb-12 space-y-4 text-center"
-          data-aos="fade-right"
-          data-aos-easing="ease-in-out"
-          data-aos-duration="300"
-        >
-          <h1 className="text-8xl font-semibold leading-tight text-stone-800">
-            Pricing
-          </h1>
+    <div class="relative z-10 w-full lg:px-8 my-12" id="pricing">
+      <h1
+        className="text-8xl font-semibold leading-tight text-stone-800 text-center"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="300"
+      >
+        Pricing
+      </h1>
+      <div class="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-5xl lg:grid-cols-3 lg:gap-4">
+        <div class="flex flex-col rounded-3xl bg-white shadow-xl ring-1 ring-black/10">
+          <div class="p-8 sm:p-10">
+            <h3
+              class="text-lg font-semibold leading-8 tracking-tight text-blue-600"
+              id="tier-hobby"
+            >
+              Powder Brows
+            </h3>
+            <div class="mt-4 flex items-baseline text-5xl font-bold tracking-tight text-gray-900">
+              $500
+              {/* <span class="text-lg font-semibold leading-8 tracking-normal text-gray-500">
+                /touch up after 6 weeks, 100$
+              </span> */}
+            </div>
+            <p class="mt-6 text-base leading-7 text-gray-600">
+              PowdwrBrows PowderBrows is a semi-permanent make-up technique in
+              which pigment is placed under the skin with permanent make-up
+              machine . This gives your eyebrows a very natural, soft powder,
+              pixel effect. The powderbrow technique is suitable for all skin
+              types and has a long shelf life. Save time in the morning, get up
+              with a make-up look
+            </p>
+          </div>
+          <div class="flex flex-1 flex-col p-2">
+            <div class="flex flex-1 flex-col justify-between rounded-2xl bg-gray-50 p-6 sm:p-8">
+              <ul role="list" class="space-y-6">
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <FaBeer />
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Duration up to 3h
+                  </p>
+                </li>
 
-          <h1 className="text-semibold text-stone-700 text-size-2xl">TEST</h1>
-
-          <p className="px-4 text-stone-700 sm:px-8 lg:px-24">
-            Sunt suscipit eaque qui iure unde labore numquam iusto alias
-            explicabo, pariatur ipsam, cupiditate aliquid modi?
-          </p>
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <SlCrop />
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Including up to 6 weeks touch up
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-red-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Touch up after 6 weeks is 100$
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-red-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Private Bookmarks (via DMs) 🚧{' '}
+                  </p>
+                </li>
+              </ul>
+              <div class="mt-8">
+                <a
+                  href="/login"
+                  class="inline-block w-full rounded-lg bg-gray-900 px-4 py-4 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-white hover:text-gray-900 hover:ring-gray-900 hover:ring"
+                  aria-describedby="tier-team"
+                >
+                  Get started today
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div
-          data-aos="fade-right"
-          data-aos-easing="ease-in-out"
-          data-aos-duration="300"
-          className="grid max-w-md grid-cols-1 gap-6 mx-auto auto-rows-fr lg:grid-cols-3 lg:max-w-full"
-        >
-          <div className="flex flex-col overflow-hidden border-solid border-2 rounded-md dark:dark:border-gray-700">
-            <div className="flex flex-col items-center justify-center px-2 py-8 space-y-4 dark:dark:bg-gray-800">
-              <p className="text-lg font-medium">Powder Brows</p>
-              <p className="text-5xl font-bold">
-                500$
-                {/* <span className="text-xl dark:dark:text-gray-400"> /mo</span> */}
-              </p>
+
+        <div class="flex flex-col rounded-3xl bg-white shadow-xl ring-1 ring-black/10">
+          <div class="p-8 sm:p-10">
+            <h3
+              class="text-lg font-semibold leading-8 tracking-tight text-blue-600"
+              id="tier-team"
+            >
+              Pro
+            </h3>
+            <div class="mt-4 flex items-baseline text-5xl font-bold tracking-tight text-gray-900">
+              $6
+              <span class="text-lg font-semibold leading-8 tracking-normal text-gray-500">
+                /mo
+              </span>
             </div>
-            <div className="flex flex-col items-center justify-center px-2 py-8 dark:dark:bg-gray-900">
-              <p class="text-slate-50">
-                PowderBrows is a semi-permanent make-up technique in which
-                pigment is placed under the skin with permanent make-up machine
-                . This gives your eyebrows a very natural, soft powder, pixel
-                effect. The powderbrow technique is suitable for all skin types
-                and has a long shelf life. Save time in the morning, get up with
-                a make-up look.
-              </p>
-              <ul className="self-stretch flex-1 space-y-2">
-                <li className="flex justify-center space-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6 dark:dark:text-gold-400"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                    ></path>
-                  </svg>
-                  <span>Lumet consectetur adipisicing</span>
+            <p class="mt-6 text-base leading-7 text-gray-600">
+              For those who expect more.
+            </p>
+          </div>
+          <div class="flex flex-1 flex-col p-2">
+            <div class="flex flex-1 flex-col justify-between rounded-2xl bg-gray-50 p-6 sm:p-8">
+              <ul role="list" class="space-y-6">
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-blue-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Bookmark Favorites
+                  </p>
                 </li>
-                <li className="flex justify-center space-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6 dark:dark:text-gold-400"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                    ></path>
-                  </svg>
-                  <span>Lumet consectetur adipisicing</span>
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-blue-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Manage and Filter Tags
+                  </p>
                 </li>
-                <li className="flex justify-center space-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6 dark:dark:text-gold-400"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                    ></path>
-                  </svg>
-                  <span>Lumet consectetur adipisicing</span>
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-blue-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Filter by Authors
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-blue-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Import Bookmarks from Twitter
+                  </p>
                 </li>
               </ul>
-              <button className="px-8 py-3 mt-6 text-lg font-semibold rounded sm:mt-12 dark:dark:bg-gold-400 dark:dark:text-gray-900">
-                Sign up
-              </button>
+              <div class="mt-8">
+                <a
+                  href="/billing"
+                  class="inline-block w-full rounded-lg bg-gray-900 px-4 py-4 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-white hover:text-gray-900 hover:ring-gray-900 hover:ring"
+                  aria-describedby="tier-team"
+                >
+                  Get started today
+                </a>
+              </div>
             </div>
           </div>
-          <div
-            data-aos="fade-right"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="300"
-            data-aos-delay="100"
-            className="flex flex-col overflow-hidden border-solid border-2 rounded-md dark:dark:border-gold-400"
-          >
-            <div className="flex flex-col items-center justify-center px-2 py-8 space-y-4 dark:dark:bg-gray-800">
-              <p className="text-lg font-medium">Professional</p>
-              <p className="text-5xl font-bold">
-                8€
-                <span className="text-xl dark:dark:text-gray-400"> /mo</span>
-              </p>
+        </div>
+        <div class="flex flex-col rounded-3xl bg-white shadow-xl ring-1 ring-black/10">
+          <div class="p-8 sm:p-10">
+            <h3
+              class="text-lg font-semibold leading-8 tracking-tight text-blue-600"
+              id="tier-team"
+            >
+              Pro
+            </h3>
+            <div class="mt-4 flex items-baseline text-5xl font-bold tracking-tight text-gray-900">
+              $6
+              <span class="text-lg font-semibold leading-8 tracking-normal text-gray-500">
+                /mo
+              </span>
             </div>
-            <div className="flex flex-col items-center justify-center px-2 py-8 dark:dark:bg-gray-900">
-              <ul className="self-stretch flex-1 space-y-2">
-                <li className="flex justify-center space-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6 dark:dark:text-gold-400"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                    ></path>
-                  </svg>
-                  <span>Lumet consectetur adipisicing</span>
-                </li>
-                <li className="flex justify-center space-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6 dark:dark:text-gold-400"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                    ></path>
-                  </svg>
-                  <span>Lumet consectetur adipisicing</span>
-                </li>
-                <li className="flex justify-center space-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6 dark:dark:text-gold-400"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                    ></path>
-                  </svg>
-                  <span>Lumet consectetur adipisicing</span>
-                </li>
-              </ul>
-              <button className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 px-8 py-3 mt-6 text-lg font-semibold rounded sm:mt-12 dark:dark:bg-gold-400 dark:dark:text-gray-900">
-                Sign up
-              </button>
-            </div>
+            <p class="mt-6 text-base leading-7 text-gray-600">
+              For those who expect more.
+            </p>
           </div>
-          <div
-            data-aos="fade-right"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="300"
-            data-aos-delay="150"
-            className="flex flex-col overflow-hidden border-solid border-2 rounded-md dark:dark:border-gray-700"
-          >
-            <div className="flex flex-col items-center justify-center px-2 py-8 space-y-4 dark:dark:bg-gray-800">
-              <p className="text-lg font-medium">Enterprise</p>
-              <p className="text-5xl font-bold">
-                19€
-                <span className="text-xl dark:dark:text-gray-400"> /mo</span>
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-center px-2 py-8 dark:dark:bg-gray-900">
-              <ul className="self-stretch flex-1 space-y-2">
-                <li className="flex justify-center space-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6 dark:dark:text-gold-400"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                    ></path>
-                  </svg>
-                  <span>Lumet consectetur adipisicing</span>
+          <div class="flex flex-1 flex-col p-2">
+            <div class="flex flex-1 flex-col justify-between rounded-2xl bg-gray-50 p-6 sm:p-8">
+              <ul role="list" class="space-y-6">
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-blue-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Bookmark Favorites
+                  </p>
                 </li>
-                <li className="flex justify-center space-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6 dark:dark:text-gold-400"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                    ></path>
-                  </svg>
-                  <span>Lumet consectetur adipisicing</span>
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-blue-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Manage and Filter Tags
+                  </p>
                 </li>
-                <li className="flex justify-center space-x-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="w-6 h-6 dark:dark:text-gold-400"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                    ></path>
-                  </svg>
-                  <span>Lumet consectetur adipisicing</span>
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-blue-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Filter by Authors
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg
+                      class="h-6 w-6 text-blue-600"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-6 text-gray-600">
+                    Import Bookmarks from Twitter
+                  </p>
                 </li>
               </ul>
-              <button className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 px-8 py-3 mt-6 text-lg font-semibold rounded sm:mt-12 dark:dark:bg-gold-400 dark:dark:text-gray-900">
-                Sign up
-              </button>
+              <div class="mt-8">
+                <a
+                  href="/billing"
+                  class="inline-block w-full rounded-lg bg-gray-900 px-4 py-4 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-white hover:text-gray-900 hover:ring-gray-900 hover:ring"
+                  aria-describedby="tier-team"
+                >
+                  Get started today
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

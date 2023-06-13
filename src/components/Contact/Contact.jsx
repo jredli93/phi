@@ -2,14 +2,16 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="w-full bg-stone-900">
-      <div class="mx-auto max-w-screen-xl py-8 flex items-top justify-center bg-stone-900 sm:items-center sm:pt-0 flex-col">
-        <div className="mb-12 space-y-4 text-center">
-          <h1 className="text-8xl font-semibold text-stone-800">
-            Let's talk about brows
-          </h1>
-          <p class="text-stone-700">Book a free consultation</p>
-        </div>
+    <div className="w-full bg-stone-900" id="contact">
+      <div class="mx-auto grid max-w-md py-8 flex items-top justify-center bg-stone-900 sm:items-center sm:pt-0 flex-col">
+        <h1
+          className="text-8xl font-semibold leading-tight mt-[5rem] text-slate-200 text-center"
+          data-aos="fade-right"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="300"
+        >
+          Contact Me
+        </h1>
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
           <div class="mt-8 overflow-hidden">
             <div class="grid grid-cols-1 md:grid-cols-2">

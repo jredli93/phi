@@ -9,13 +9,13 @@ function Hero() {
             data-aos="fade-left"
             data-aos-easing="ease-in-out"
             data-aos-duration="300"
+            class="text-stone-600 text-[4rem] md:text-[8rem]"
           >
-            Understand User Flow.
-            <span class="text-stone-400 drop-shadow-md sm:block">
-              Increase Conversion.
-            </span>
+            Brows by Lela
           </h1>
-
+          <span class="text-stone-900 text-4xl sm:block">
+            Brows are the only thing you can get in shape without exercise.
+          </span>
           <p
             data-aos="fade-right"
             data-aos-easing="ease-in-out"
@@ -25,7 +25,6 @@ function Hero() {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
             illo tenetur fuga ducimus numquam ea!
           </p>
-
           <div
             data-aos="flip-up"
             data-aos-easing="ease-in-out"

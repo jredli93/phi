@@ -270,7 +270,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'pattern': "url('images/bg-pattern.webp')",
+        'pattern': "url('assets/images/bg-pattern.webp')",
       },
     },
   },

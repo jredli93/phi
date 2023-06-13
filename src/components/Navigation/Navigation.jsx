@@ -22,30 +22,36 @@ function Navigation() {
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
             <a
-              href="#responsive-header"
+              href="#about"
               class="block mt-4 lg:inline-block lg:mt-0 text-neutral-50 hover:text-white mr-4"
             >
-              Docs
+              About Me
             </a>
             <a
-              href="#responsive-header"
+              href="#faq"
               class="block mt-4 lg:inline-block lg:mt-0 text-neutral-50 hover:text-white mr-4"
             >
-              Examples
+              Faq
             </a>
             <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-neutral-50 hover:text-white"
+              href="#gallery"
+              class="block mt-4 lg:inline-block lg:mt-0 text-neutral-50 hover:text-white mr-4"
             >
-              Blog
+              Gallery
+            </a>
+            <a
+              href="#pricing"
+              class="block mt-4 lg:inline-block lg:mt-0 text-neutral-50 hover:text-white mr-4"
+            >
+              Pricing
             </a>
           </div>
           <div class="transition-all border border-solid border-slate-50 rounded-md hover:border-gold-600 hover:text-gold-500 hover:bg-gold-500">
             <a
-              href="#"
+              href="#contact"
               class="inline-block text-sm px-4 py-2 leading-none border border-gray-50 rounded text-slate-50 mt-4 lg:mt-0"
             >
-              Download
+              Contact
             </a>
           </div>
         </div>
