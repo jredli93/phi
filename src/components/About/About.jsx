@@ -4,21 +4,11 @@ function About() {
   return (
     <section id="about">
       <div class="mx-auto max-w-screen-xl py-32">
-        <h1
-          className="text-8xl font-semibold leading-tight text-stone-800 text-center"
-          data-aos="fade-right"
-          data-aos-easing="ease-in-out"
-          data-aos-duration="300"
-        >
+        <h1 className="text-8xl font-semibold leading-tight text-stone-800 text-center">
           About Me
         </h1>
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div
-            data-aos="fade-left"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="300"
-            class="bg-stone-900 p-8 md:order-last md:p-12 lg:px-16 lg:py-24"
-          >
+          <div class="bg-stone-900 p-8 md:order-last md:p-12 lg:px-16 lg:py-24">
             <div class="mx-auto max-w-xl text-center">
               <h2 class="text-6xl font-bold text-slate-50 md:text-5xl">
                 Catering to people’s health, both physical and mental, has been
@@ -58,19 +48,12 @@ function About() {
 
           <div class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
             <img
-              data-aos="fade-right"
-              data-aos-easing="ease-in-out"
-              data-aos-duration="300"
               alt="Student"
               src="/assets/images/aboutMe.jpg"
               class="h-40 w-full object-cover sm:h-56 md:h-full"
             />
 
             <img
-              data-aos="fade-right"
-              data-aos-easing="ease-in-out"
-              data-aos-duration="300"
-              data-aos-delay="150"
               alt="Student"
               src="/assets/images/aboutMeSecond.jpg"
               class="h-40 w-full object-cover sm:h-56 md:h-full"

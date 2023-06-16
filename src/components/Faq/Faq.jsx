@@ -5,9 +5,6 @@ function Faq() {
     <div class="mx-auto max-w-screen-xl" id="faq">
       <h1
         className="text-8xl font-semibold leading-tight text-stone-800 text-center"
-        data-aos="fade-right"
-        data-aos-easing="ease-in-out"
-        data-aos-duration="300"
       >
         FAQ
       </h1>

@@ -6,25 +6,16 @@ function Contact() {
       <div class="mx-auto text-center">
         <h1
           className="text-8xl font-semibold leading-tight text-gold-100 text-center"
-          data-aos="fade-right"
-          data-aos-easing="ease-in-out"
-          data-aos-duration="300"
         >
           Let's talk Brows
         </h1>
         <p
           class="mt-2 text-lg leading-8 text-slate-100"
-          data-aos="fade-left"
-          data-aos-easing="ease-in-out"
-          data-aos-duration="300"
         >
           Book a free consultation
         </p>
         <p
           class="mt-1 text-md leading-4 text-slate-100"
-          data-aos="fade-right"
-          data-aos-easing="ease-in-out"
-          data-aos-duration="300"
         >
           I will be happy to help you choose the eyebrow service that suits you
           best and answer any questions you have regarding treatments.

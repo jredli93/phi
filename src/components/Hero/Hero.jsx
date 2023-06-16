@@ -6,9 +6,7 @@ function Hero() {
       <div class="mx-auto max-w-screen-xl py-32 lg:flex lg:h-[92vh] lg:items-center">
         <div class="mx-auto max-w-xl text-center">
           <h1
-            data-aos="fade-left"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="300"
+      
             class="text-stone-600 text-[4rem] md:text-[8rem]"
           >
             Brows by Lela
@@ -17,18 +15,12 @@ function Hero() {
             Brows are the only thing you can get in shape without exercise.
           </span>
           <p
-            data-aos="fade-right"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="300"
             class="mt-4 sm:text-xl sm:leading-relaxed"
           >
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
             illo tenetur fuga ducimus numquam ea!
           </p>
           <div
-            data-aos="flip-up"
-            data-aos-easing="ease-in-out"
-            data-aos-duration="450"
             class="mt-8 flex flex-wrap justify-center gap-4"
           >
             <a

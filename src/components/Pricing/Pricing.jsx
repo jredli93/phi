@@ -7,9 +7,6 @@ function Pricing() {
     <div class="relative z-10 w-full lg:px-8 my-12" id="pricing">
       <h1
         className="text-8xl font-semibold leading-tight text-stone-800 text-center"
-        data-aos="fade-right"
-        data-aos-easing="ease-in-out"
-        data-aos-duration="300"
       >
         Pricing
       </h1>
