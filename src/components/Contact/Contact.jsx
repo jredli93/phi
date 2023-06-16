@@ -2,151 +2,116 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="w-full bg-stone-900" id="contact">
-      <div class="mx-auto grid max-w-md py-8 flex items-top justify-center bg-stone-900 sm:items-center sm:pt-0 flex-col">
+    <div class="mx-auto w-full bg-stone-800 py-32 mt-32" id="certification">
+      <div class="mx-auto text-center">
         <h1
-          className="text-8xl font-semibold leading-tight mt-[5rem] text-slate-200 text-center"
+          className="text-8xl font-semibold leading-tight text-gold-100 text-center"
           data-aos="fade-right"
           data-aos-easing="ease-in-out"
           data-aos-duration="300"
         >
-          Contact Me
+          Let's talk Brows
         </h1>
-        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-          <div class="mt-8 overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-2">
-              <div class="p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
-                <h1 class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
-                  Get in touch
-                </h1>
-                <p class="text-normal text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2">
-                  Fill in the form to start a conversation
-                </p>
+        <p
+          class="mt-2 text-lg leading-8 text-slate-100"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="300"
+        >
+          Book a free consultation
+        </p>
+        <p
+          class="mt-1 text-md leading-4 text-slate-100"
+          data-aos="fade-right"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="300"
+        >
+          I will be happy to help you choose the eyebrow service that suits you
+          best and answer any questions you have regarding treatments.
+        </p>
+      </div>
+      <form
+        action="#"
+        method="POST"
+        class="mx-auto max-w-screen-md mt-16 sm:mt-20"
+      >
+        <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+          <div>
+            <label
+              for="first-name"
+              class="block text-sm font-semibold leading-6 text-slate-100"
+            >
+              Name
+            </label>
+            <div class="mt-2.5">
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                autocomplete="given-name"
+                class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              />
+            </div>
+          </div>
+          <div>
+            <label
+              for="phone"
+              class="block text-sm font-semibold leading-6 text-slate-100"
+            >
+              Phone
+            </label>
+            <div class="mt-2.5">
+              <input
+                type="text"
+                name="phone"
+                class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              />
+            </div>
+          </div>
 
-                <div class="flex items-center mt-8 text-gray-600 dark:text-gray-400">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    class="w-8 h-8 text-gray-500"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                  <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                    Acme Inc, Street, State, Postal Code
-                  </div>
-                </div>
-
-                <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    class="w-8 h-8 text-gray-500"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    />
-                  </svg>
-                  <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                    +44 1234567890
-                  </div>
-                </div>
-
-                <div class="flex items-center mt-2 text-gray-600 dark:text-gray-400">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    class="w-8 h-8 text-gray-500"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    />
-                  </svg>
-                  <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                    info@acme.org
-                  </div>
-                </div>
-              </div>
-
-              <form class="p-6 flex flex-col justify-center">
-                <div class="flex flex-col">
-                  <label for="name" class="hidden">
-                    Full Name
-                  </label>
-                  <input
-                    type="name"
-                    name="name"
-                    id="name"
-                    placeholder="Full Name"
-                    class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
-                  />
-                </div>
-
-                <div class="flex flex-col mt-2">
-                  <label for="email" class="hidden">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                    class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
-                  />
-                </div>
-
-                <div class="flex flex-col mt-2">
-                  <label for="tel" class="hidden">
-                    Number
-                  </label>
-                  <input
-                    type="tel"
-                    name="tel"
-                    id="tel"
-                    placeholder="Telephone Number"
-                    class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 md:w-32 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300"
-                >
-                  Submit
-                </button>
-              </form>
+          <div class="sm:col-span-2">
+            <label
+              for="email"
+              class="block text-sm font-semibold leading-6 text-slate-100"
+            >
+              Email
+            </label>
+            <div class="mt-2.5">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="email"
+                class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              />
+            </div>
+          </div>
+          <div class="sm:col-span-2">
+            <label
+              for="message"
+              class="block text-sm font-semibold leading-6 text-slate-100"
+            >
+              Message
+            </label>
+            <div class="mt-2.5">
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              ></textarea>
             </div>
           </div>
         </div>
-      </div>
+        <div class="mt-10">
+          <button
+            type="submit"
+            class="block w-full rounded-md bg-gold-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-gold-600 focus:outline-none focus:ring active:bg-gold-500"
+          >
+            Let's talk
+          </button>
+        </div>
+      </form>
     </div>
   );
 }
