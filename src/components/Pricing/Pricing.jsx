@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaBeer } from 'react-icons/fa';
-import { SlCrop } from 'react-icons/sl';
+import { FaBeer } from 'react-icons/fa/index';
+import { SlCrop } from 'react-icons/sl/index';
 
 function Pricing() {
   return (
