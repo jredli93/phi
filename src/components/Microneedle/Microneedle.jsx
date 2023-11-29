@@ -14,10 +14,10 @@ function Microneedle() {
 
       <div class="mx-auto max-w-screen-xl grid-cols-1 sm:grid md:grid-cols-3 ">
         <div class="mx-3 mt-6 flex flex-col bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  sm:shrink-0 sm:grow sm:basis-0">
-          <img class="aspect-[3/3.5]" src="/assets/images/phi20.jpeg" />
+          <img class="aspect-[3/3.5]" src="/assets/images/hair.jpeg" />
           <div class="p-6">
             <h3 class="mb-2 text-5xl font-medium text-neutral-800 dark:text-slate-900">
-              Micronnedeling for Hair Growth
+              Micronedeling for Hair Growth
             </h3>
 
             <p class="mb-4 text-base text-neutral-600 dark:text-slate-900">
@@ -35,7 +35,7 @@ function Microneedle() {
           </div>
         </div>
         <div class="mx-3 mt-6 flex flex-col bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  sm:shrink-0 sm:grow sm:basis-0">
-          <img class="aspect-[3/3.5]" src="/assets/images/phi6.jpeg" />
+          <img class="aspect-[3/3.5]" src="/assets/images/scar.jpeg" />
           <div class="p-6">
             <h3 class="mb-2 text-5xl font-medium text-neutral-800 dark:text-slate-900">
               Scare or Stretch Mark Micronnedeling
@@ -53,7 +53,7 @@ function Microneedle() {
           </div>
         </div>
         <div class="mx-3 mt-6 flex flex-col bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] sm:shrink-0 sm:grow sm:basis-0">
-          <img class="aspect-[3/3.5]" src="/assets/images/phi7.jpeg" />
+          <img class="aspect-[3/3.5]" src="/assets/images/face.jpeg" />
           <div class="p-6">
             <h3 class="mb-2 text-5xl font-medium text-neutral-800 dark:text-slate-900">
               Face Microneedeling

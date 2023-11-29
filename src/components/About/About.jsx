@@ -10,9 +10,9 @@ function About() {
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div class="bg-aboutPattern p-8 md:order-last md:p-12 lg:px-16 lg:py-24">
             <div class="mx-auto max-w-xl text-center">
-              <h2 class="text-6xl font-bold text-slate-50 md:text-5xl">
+              {/* <h2 class="text-6xl font-bold text-slate-50 md:text-5xl">
                 About Me
-              </h2>
+              </h2> */}
               <p class="text-slate-100 mt-3">
                 My name is Jelena Isajlovic- Lela. I am certified PhiAcademy
                 artist in BoldBrows and PowderBrowse technique... After a years
@@ -38,13 +38,13 @@ function About() {
             <img
               alt="Student"
               src="/assets/images/aboutMe.jpg"
-              class="h-40 w-full object-cover sm:h-56 md:h-full"
+              class="h-40 w-full object-cover object-top md:object-center sm:h-56 md:h-full"
             />
 
             <img
               alt="Student"
               src="/assets/images/aboutMeSecond.jpg"
-              class="h-40 w-full object-cover sm:h-56 md:h-full"
+              class="h-40 w-full object-cover object-top md:object-center sm:h-56 md:h-full"
             />
           </div>
         </div>
