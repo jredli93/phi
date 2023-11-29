@@ -10,55 +10,52 @@ function Navigation() {
           <div className="flex items-center justify-between h-[5rem]">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                {/* <img
-                  className="h-8 w-8"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                  alt="Workflow"
-                /> */}
-                <img
-                  class="mx-auto"
-                  width={100}
-                  src="/assets/images/logo.png"
-                />
+                <a href="/">
+                  <img
+                    class="mx-auto"
+                    width={100}
+                    src="/assets/images/logo.png"
+                  />
+                </a>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    href="#"
+                    href="#about"
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About Me
                   </a>
 
                   <a
-                    href="#"
+                    href="#faq"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     FAQ
                   </a>
 
                   <a
-                    href="#"
+                    href="#certification"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Certificate
                   </a>
 
                   <a
-                    href="#"
+                    href="#gallery"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Gallery
                   </a>
 
                   <a
-                    href="#"
+                    href="#price"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Price
                   </a>
                   <a
-                    href="#"
+                    href="#contact"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
@@ -126,38 +123,44 @@ function Navigation() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="#"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  href="#about"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Dashboard
+                  About Me
                 </a>
 
                 <a
-                  href="#"
+                  href="#faq"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Team
+                  FAQ
                 </a>
 
                 <a
-                  href="#"
+                  href="#certification"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Projects
+                  Certificate
                 </a>
 
                 <a
-                  href="#"
+                  href="#gallery"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Calendar
+                  Gallery
                 </a>
 
                 <a
-                  href="#"
+                  href="#price"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Reports
+                  Price
+                </a>
+                <a
+                  href="#contact"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Contact
                 </a>
               </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Price() {
   return (
-    <section class="bg-slate-50">
+    <section class="bg-slate-50" id="price">
       <div class="container  px-6 py-8 mx-auto">
         <h1 className="text-8xl font-semibold leading-tight text-slate-900 text-center">
           Price Plan

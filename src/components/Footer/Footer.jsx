@@ -4,10 +4,12 @@ function Footer() {
   return (
     <footer aria-label="Site Footer" class="bg-pattern bg-contain">
       <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-        <img class="mx-auto" width={350} src="/assets/images/logo.png" />
+        <a href="/">
+          <img class="mx-auto" width={350} src="/assets/images/logo.png" />
+        </a>
 
         <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400">
-         Trusted PhiAcademy Artist
+          Trusted PhiAcademy Artist
         </p>
 
         <nav aria-label="Footer Nav" class="mt-12">
@@ -15,7 +17,7 @@ function Footer() {
             <li>
               <a
                 class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
+                href="#about"
               >
                 About me
               </a>
@@ -24,7 +26,7 @@ function Footer() {
             <li>
               <a
                 class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
+                href="#faq"
               >
                 FAQ
               </a>
@@ -33,7 +35,7 @@ function Footer() {
             <li>
               <a
                 class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
+                href="#certification"
               >
                 Cetfiticate
               </a>
@@ -42,7 +44,7 @@ function Footer() {
             <li>
               <a
                 class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
+                href="#gallery"
               >
                 Gallery
               </a>
@@ -51,7 +53,7 @@ function Footer() {
             <li>
               <a
                 class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
+                href="#price"
               >
                 Price
               </a>
@@ -60,7 +62,7 @@ function Footer() {
             <li>
               <a
                 class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
+                href="#contact"
               >
                 Contact
               </a>
