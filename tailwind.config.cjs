@@ -270,9 +270,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'pattern': "url('assets/images/lela_bg.png')",
-        'aboutPattern': "url('assets/images/lela_bg_1.png')",
-        'darkPattern': "url('assets/images/dark-bg.png')",
+        'pattern': "url('images/lela_bg.png')",
+        'aboutPattern': "url('images/lela_bg_1.png')",
+        'darkPattern': "url('images/dark-bg.png')",
       },
     },
   },
