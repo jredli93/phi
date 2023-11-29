@@ -11,7 +11,7 @@ function Faq() {
       <div class="faq-wrap">
         <details class="group bg-slate-200 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="font-medium text-gray-900 text-[2rem]">
               What are powder brows?
             </h2>
 
@@ -43,7 +43,7 @@ function Faq() {
 
         <details class="group bg-slate-100 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-[2rem] font-medium text-gray-900">
               What are microblading-BoldBrows?
             </h2>
 
@@ -74,7 +74,7 @@ function Faq() {
         </details>
         <details class="group bg-slate-50 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-[2rem] font-medium text-gray-900">
               Benefits of microblading and powder brows?
             </h2>
 
@@ -104,7 +104,7 @@ function Faq() {
         </details>
         <details class="group bg-slate-100 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-[2rem] font-medium text-gray-900">
               How long is initial appointment?
             </h2>
 
@@ -131,7 +131,7 @@ function Faq() {
         </details>
         <details class="group bg-slate-200 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-[2rem] font-medium text-gray-900">
               How long is touch-up appointment?
             </h2>
 
@@ -158,7 +158,7 @@ function Faq() {
         </details>
         <details class="group bg-slate-100 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-[2rem] font-medium text-gray-900">
               When is time four touch-up appointment?
             </h2>
 
@@ -186,7 +186,7 @@ function Faq() {
         </details>
         <details class="group bg-slate-50 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-[2rem] font-medium text-gray-900">
               HOW DO I KNOW WHEN I NEED A TOUCHUP?
             </h2>
 
@@ -216,7 +216,7 @@ function Faq() {
         </details>
         <details class="group bg-slate-100 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-[2rem] font-medium text-gray-900">
               What you should avoid before treatment?
             </h2>
 
@@ -249,7 +249,7 @@ function Faq() {
         </details>
         <details class="group bg-slate-200 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-[2rem] font-medium text-gray-900">
               What should you do for after care?
             </h2>
 

@@ -2,10 +2,10 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div class="mx-auto w-full bg-stone-800 py-32 mt-32" id="certification">
+    <div class="mx-auto w-full bg-darkPattern bg-cover py-32" id="contact">
       <div class="mx-auto text-center">
         <h1
-          className="text-8xl font-semibold leading-tight text-gold-100 text-center"
+          className="text-8xl font-semibold leading-tight text-slate-100 text-center"
         >
           Let's talk Brows
         </h1>
@@ -15,7 +15,7 @@ function Contact() {
           Book a free consultation
         </p>
         <p
-          class="mt-1 text-md leading-4 text-slate-100"
+          class="mt-1 text-md leading-4 text-slate-50"
         >
           I will be happy to help you choose the eyebrow service that suits you
           best and answer any questions you have regarding treatments.
@@ -26,11 +26,11 @@ function Contact() {
         method="POST"
         class="mx-auto max-w-screen-md mt-16 sm:mt-20"
       >
-        <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+        <div class="grid grid-cols-1 gap-x-8 px-[2rem] md:px-0 gap-y-6 sm:grid-cols-2">
           <div>
             <label
               for="first-name"
-              class="block text-sm font-semibold leading-6 text-slate-100"
+              class="block text-sm font-semibold leading-6 text-slate-50"
             >
               Name
             </label>
@@ -47,7 +47,7 @@ function Contact() {
           <div>
             <label
               for="phone"
-              class="block text-sm font-semibold leading-6 text-slate-100"
+              class="block text-sm font-semibold leading-6 text-slate-50"
             >
               Phone
             </label>
@@ -63,7 +63,7 @@ function Contact() {
           <div class="sm:col-span-2">
             <label
               for="email"
-              class="block text-sm font-semibold leading-6 text-slate-100"
+              class="block text-sm font-semibold leading-6 text-slate-50"
             >
               Email
             </label>
@@ -80,7 +80,7 @@ function Contact() {
           <div class="sm:col-span-2">
             <label
               for="message"
-              class="block text-sm font-semibold leading-6 text-slate-100"
+              class="block text-sm font-semibold leading-6 text-slate-50"
             >
               Message
             </label>

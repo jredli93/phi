@@ -8,6 +8,8 @@ import Gallery from '../components/Gallery/Gallery';
 import Hero from '../components/Hero/Hero';
 import Navigation from '../components/Navigation/Navigation.jsx';
 import Pricing from '../components/Pricing/Pricing';
+import Microneedle from '../components/Microneedle/Microneedle';
+import Price from '../components/Price/Price';
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -19,6 +21,8 @@ import Layout from '../layouts/Layout.astro';
   <Certification />
   <Gallery client:load />
   <Pricing client:load />
+  <Microneedle client:load />
+  <Price />
   <Contact />
   <Footer />
 </Layout>

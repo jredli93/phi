@@ -8,32 +8,20 @@ function About() {
           About Me
         </h1>
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div class="bg-stone-900 p-8 md:order-last md:p-12 lg:px-16 lg:py-24">
+          <div class="bg-aboutPattern p-8 md:order-last md:p-12 lg:px-16 lg:py-24">
             <div class="mx-auto max-w-xl text-center">
               <h2 class="text-6xl font-bold text-slate-50 md:text-5xl">
-                Catering to people’s health, both physical and mental, has been
-                my professional commitment for years.
+                About Me
               </h2>
               <p class="text-slate-100 mt-3">
-                As a medical worker, working across multiple healthcare
-                settings, I realized that the famous saying:”A healthy person
-                has 1000 wishes…” holds so much truth. For many of us, those
-                wishes would revolve around satisfaction of self-image we
-                perceive form our own mirror reflection! When we like what we
-                see in the mirror reflection, we believe that the whole World is
-                ours, right? That's the discovery that has changed my life. I
-                found my new vocation, my mission, goal, career commitment, and
-                everything is this line with my habit of helping people feel
-                better, healthier, and let's add more beautiful. Miami, the
-                United States capital of beauty and vibrant living gave me an
-                opportunity to learn and master my craft of permanent makeup and
-                facial enhancements. If you are willing to place your trust in
-                me and my craft, together we can bring you the satisfaction of
-                looking at your own reflection and loving it. Hi,
-              </p>
-              <p class="hidden text-slate-100 sm:mt-4 sm:block">
-                I'm Jelena, a proud representative of Phi Academy, and below you
-                can see some of my works.
+                My name is Jelena Isajlovic- Lela. I am certified PhiAcademy
+                artist in BoldBrows and PowderBrowse technique... After a years
+                working as a anesthesia nurse I decide is time for a change. I
+                wonted to help people and make them happy but in another way. In
+                that time I met my master Boiana and she opened me the door of
+                PhiAcademy and beauty industry. I fell in love with brows And
+                now I am here helping women's to get the get they life easer and
+                feel confident.
               </p>
               <div class="mt-4 md:mt-8">
                 <a
