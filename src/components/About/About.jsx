@@ -14,14 +14,25 @@ function About() {
                 About Me
               </h2> */}
               <p class="text-slate-100 mt-3">
-                My name is Jelena Isajlovic- Lela. I am certified PhiAcademy
-                artist in BoldBrows and PowderBrowse technique... After a years
-                working as a anesthesia nurse I decide is time for a change. I
-                wonted to help people and make them happy but in another way. In
-                that time I met my master Boiana and she opened me the door of
-                PhiAcademy and beauty industry. I fell in love with brows And
-                now I am here helping women's to get the get they life easer and
-                feel confident.
+                Catering to people’s health, both physical and mental, has been
+                my professional commitment for years. As a medical worker,
+                working across multiple healthcare settings, I realized that the
+                famous saying: &quot;A healthy person has 1000 wishes…” holds so
+                much truth. For many of us, those wishes would revolve around
+                satisfaction of self-image we perceive form our own mirror
+                reflection! When we like what we see in the mirror reflection,
+                we believe that the whole World is ours, right? That&#39;s the
+                discovery that has changed my life. I found my new vocation, my
+                mission, goal, career commitment, and everything is this line
+                with my habit of helping people feel better, healthier, and
+                let&#39;s add more beautiful. Miami, the United States capital
+                of beauty and vibrant living gave me an opportunity to learn and
+                master my craft of permanent makeup and facial enhancements. If
+                you are willing to place your trust in me and my craft, together
+                we can bring you the satisfaction of looking at your own
+                reflection and loving it. <br/>Hi, I&#39;m Jelena, a proud
+                representative of Phi Academy, and below you can see some of my
+                works.
               </p>
               <div class="mt-4 md:mt-8">
                 <a
